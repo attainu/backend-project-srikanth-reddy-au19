@@ -28,4 +28,4 @@ been that month
 5. Express Js
 6. Handlebars
 7. Mongo db
-8. Moongos
+8. Moongose
