@@ -1,5 +1,5 @@
 {
-  "name": "passport-example",
+  "name": "emotion-of-the-day",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -22,5 +22,17 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "description": "This is our first backend project. Everything has been built in seven days ⏳",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srikanth-reddy-au19"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikanth-reddy-au19"
+  },
+  "homepage": "https://github.com/srikanth-reddy-au19"
 }
