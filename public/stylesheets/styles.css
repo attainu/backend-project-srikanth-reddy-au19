@@ -1,0 +1,467 @@
+* {
+	font-family: "Montserrat", sans-serif !important;
+	padding: 0px;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 900%;
+	-webkit-animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	/* margin-bottom: .5rem; */
+	font-weight: 500;
+	line-height: 1.2;
+	font-size: 2.5rem;
+	color: #f8f9fa;
+}
+
+h2 {
+	margin: 0px;
+}
+
+.small {
+	font-size: 15px;
+	font-weight: 15;
+}
+.icon {
+	color: white;
+	width: 25px;
+}
+
+.github {
+	margin-right: 10px;
+}
+.icons-container {
+	display:flex;
+	justify-content: center;
+}
+
+.span-letter{
+	color: white;
+	margin: 0 15px;
+	line-height: .7;
+	animation: span 3s ease-in infinite alternate;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: 'Quicksand', sans-serif;
+	margin: 30px; 
+	font-size: 3rem;
+}
+.letter{
+	display: inline-flex;
+	height: 24px;
+	border: 5px solid white;
+	border-radius: 19px;
+	animation: letter 3s ease-in-out infinite alternate;
+}
+
+@keyframes span {
+	0%,30%{ margin: 0 15px; }
+	70%,100%{ margin: 0 5px; }
+}
+@keyframes letter {
+	0%,30%{ width: 25px; }
+	70%,100%{ width: 20vw; }
+}
+
+.tell-more {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.subcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20vh;
+}
+
+
+.btn-group {
+	margin-bottom: 1.5rem;
+	margin-top: .5rem;
+	position: relative;
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+.btn {
+	color: white;
+	padding: 10px 20px;
+	border: 1px solid white;
+	margin: 5px;
+
+}
+
+.delete-mood {
+	padding: 5px 10px;
+	background-color: rgb(255, 255, 255, .4);
+}
+
+.delete-mood>button {
+	color: black;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+	opacity: 0.5;
+}
+.anchor-buttons {
+	color: white;
+	border: 1px solid white;
+	margin: 5px;
+}
+
+.buttons {
+	padding: 10px 20px;
+}
+.text-light {
+	color: white;
+}
+
+#calendar {
+	margin-top: 50px;
+	width: 600px;
+	height: 644px;
+	color: white;
+}
+
+.calendar-container {
+	display: flex;
+	justify-content: center;
+}
+
+.fc .fc-col-header-cell-cushion {
+	font-weight: 500;
+}
+
+.fc-daygrid {
+	background-color: rgb(255,255,255, 0.2);
+}
+
+/* span {
+	float: right;
+} */
+
+button:hover {
+	color: black;
+	background-color: white;
+	opacity: 0.5;
+}
+
+button {
+	background: transparent;
+	border: none;
+	color: white
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	outline: none;
+}
+
+.input>label {
+	color: white;
+	padding: 10px;
+}
+
+.input>input {
+	border: none;
+	border-radius: 20px;
+	padding: 10px 40px;
+	outline: none;
+
+}
+
+.input>a {
+	margin-top: 30px
+}
+
+ul li {
+	color: white;
+	list-style-type: none;
+}
+
+
+.mood {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px;
+	padding: 5px 0px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 0px;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+.user-image {
+	width: 200px;
+}
+
+.doodle-mood {
+	width: 70px;
+}
+
+.form-doodle-mood {
+	display: flex;
+	justify-content: center;
+}
+
+.button-doodle:hover {
+	opacity: 1.0;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.default-moods {
+
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 55px;
+}
+
+.edit-delete-button {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.text-area {
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	outline: none;
+}
+
+.header {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.fc-dayGridMonth-button .fc-button .fc-button-primary .fc-button-active {
+	display: none;
+}
+
+.your-day-mood {
+	border-radius: 20px;
+	background-color: rgb(255, 255, 255, .4);
+	max-width: 700px;
+  margin: 0 auto;
+}
+
+.fc-event-img {
+	display: flex;
+	justify-content: center;
+}
+
+.fc-event-title {
+	display: flex;
+	justify-content: center;
+
+}
+
+.fc-event-img img {
+	width: 50px;
+
+}
+
+.fc-daygrid-day-events {
+	display: flex;
+	justify-content: center;
+}
+
+.fc-event-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.error-message {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(255, 255, 255, .4);
+	max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.zoom {
+  transition: transform .2s;
+  /* width: 200px; */
+  height: 200px;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media all and (max-width: 480px) {
+	.h1 {
+		font-size: 14px;
+	}
+	.main {
+		font-size: 2rem;
+	}
+
+	.letter {
+    height: 15px;
+    border: 4px solid white;
+	}
+	@keyframes letter {
+		0%,30%{ width: 15px; }
+		70%,100%{ width: 20vw; }
+	}
+	
+
+	#calendar {
+		margin-top: 50px;
+		width: 334px;
+    height: 393px;
+	}
+
+	.fc .fc-col-header-cell-cushion {
+    font-weight: 400;
+}
+
+	.header>img {
+		width: 130px;
+	}
+
+	.header>h2 {
+		font-size: 25px;
+	}
+
+	.fc-dayGridMonth-button {
+		display: none;
+	}
+
+	.fc-toolbar-title {
+		font-size: 14px;
+	}
+
+	.doodle-mood {
+		width: 50px;
+		
+	}
+
+	.default-moods {
+		margin-top: 50px;
+		display: flex;
+	}
+
+	.each-mood {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+
+	.container-mood {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.text-area {
+		padding: 20px;
+    width: 280px;
+	}
+
+	.tell-more {
+		margin-top: 0px;
+		width: 300px;
+		margin-bottom: 30px;
+}
+	
+
+	h1 {
+		font-size: 2rem;
+		margin-top: 50px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	.create-mood {
+		margin-bottom: 40px;
+	}
+
+	.fc-event-img img {
+		width: 30px;
+	}
+	.error-message p {
+		width: 200px;
+	}
+
+	.your-day-mood {
+		margin-top: 40px;
+	}
+
+	.zoom {
+		transition: transform .2s;
+		height: auto;
+    width: auto;
+	}
+	.zoom:hover {
+		transform: scale(1.2);
+	}
+	
+
+}
