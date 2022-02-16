@@ -19,7 +19,7 @@ been that month
 5. Selecting Emotion 
 6. Edit and Save 
 
-#TECHNOLOGIES USED 
+# TECHNOLOGIES USED 
 1. HTML
 2. CSS
 3. Java Script
